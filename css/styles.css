@@ -1,13 +1,19 @@
 .float {
-    margin: 10px;
-    float: right;
-    height: 150px;
-  }
-  
-  .clear {
-    clear: right;
-  }
-  
-  div {
-    border: 1px solid black;
-  }
+  margin: 10px;
+  float: right;
+  height: 150px;
+}
+
+.clear {
+  clear: right;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table;
+}
