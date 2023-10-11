@@ -1,11 +1,13 @@
-h1 {
-    background-color: aquamarine;
-    width: 100%;
-    padding-top: 1rem;
-    padding-right: 1.5rem;
-    padding-bottom: 1rem;
-    padding-left: 1.5rem;
-    border: 1em solid blue;
-    border-radius: 1em;
-    margin: 2em;
-}
+.float {
+    margin: 10px;
+    float: right;
+    height: 150px;
+  }
+  
+  .clear {
+    clear: right;
+  }
+  
+  div {
+    border: 1px solid black;
+  }
