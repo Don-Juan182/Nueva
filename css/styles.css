@@ -1,7 +1,22 @@
-.fixed-position {
-  position: fixed;
-  top: 30px;
-  left: 30px;
+.one {
+  z-index: 2;
   background: lightblue;
-  padding: 10px;
+  padding: 20px;
+  width: 200px;
+  position: relative;
+}
+
+.two {
+  z-index: 1;
+  background: lightgreen;
+  padding: 20px;
+  width: 200px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.container {
+  position: relative;
+  height: 100px;
 }
