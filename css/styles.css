@@ -1,22 +1,9 @@
-.one {
-  z-index: 2;
-  background: lightblue;
-  padding: 20px;
-  width: 200px;
-  position: relative;
+main {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.two {
-  z-index: 1;
-  background: lightgreen;
+section {
   padding: 20px;
-  width: 200px;
-  position: absolute;
-  top: 40px;
-  left: 40px;
-}
-
-.container {
-  position: relative;
-  height: 100px;
+  background-color: lightblue;
 }
