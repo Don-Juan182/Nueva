@@ -1,9 +1,24 @@
+header {
+  grid-area: myheader;
+  background: orange;
+}
+nav {
+  grid-area: mynav;
+  background: lightblue;
+}
 main {
-  display: flex;
-  justify-content: space-evenly;
+  grid-area: mymain;
+  background: lightgreen;
+}
+footer {
+  grid-area: myfooter;
+  background: yellow;
 }
 
-section {
-  padding: 20px;
-  background-color: lightblue;
+body {
+  display: grid;
+  grid-template-areas:
+    "myheader mynav"
+    "mymain mynav"
+    "mymain myfooter";
 }
